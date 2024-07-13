@@ -1,6 +1,6 @@
 <?php
 
-namespace SaaSykit\OpenGraphy\Commands;
+namespace Edeoliv\OpenGraphy\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Storage;

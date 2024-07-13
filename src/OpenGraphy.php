@@ -1,6 +1,6 @@
 <?php
 
-namespace SaaSykit\OpenGraphy;
+namespace Edeoliv\OpenGraphy;
 
 use Illuminate\View\ComponentAttributeBag;
 

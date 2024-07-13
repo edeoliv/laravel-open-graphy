@@ -1,10 +1,10 @@
 <?php
 
-namespace SaaSykit\OpenGraphy\Tests;
+namespace Edeoliv\OpenGraphy\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use SaaSykit\OpenGraphy\OpenGraphyServiceProvider;
+use Edeoliv\OpenGraphy\OpenGraphyServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'SaaSykit\\OpenGraphy\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Edeoliv\\OpenGraphy\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

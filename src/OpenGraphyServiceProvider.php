@@ -1,9 +1,9 @@
 <?php
 
-namespace SaaSykit\OpenGraphy;
+namespace Edeoliv\OpenGraphy;
 
-use SaaSykit\OpenGraphy\Commands\ClearCache;
-use SaaSykit\OpenGraphy\Commands\GenerateOpenGraphImage;
+use Edeoliv\OpenGraphy\Commands\ClearCache;
+use Edeoliv\OpenGraphy\Commands\GenerateOpenGraphImage;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -29,7 +29,7 @@ class OpenGraphyServiceProvider extends PackageServiceProvider
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishConfigFile()
-                    ->askToStarRepoOnGitHub('saasykit/laravel-open-graphy');
+                    ->askToStarRepoOnGitHub('edeoliv/laravel-open-graphy');
             });
     }
 }

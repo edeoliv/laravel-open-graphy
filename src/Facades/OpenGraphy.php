@@ -1,16 +1,16 @@
 <?php
 
-namespace SaaSykit\OpenGraphy\Facades;
+namespace Edeoliv\OpenGraphy\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \SaaSykit\OpenGraphy\OpenGraphy
+ * @see \Edeoliv\OpenGraphy\OpenGraphy
  */
 class OpenGraphy extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \SaaSykit\OpenGraphy\OpenGraphy::class;
+        return \Edeoliv\OpenGraphy\OpenGraphy::class;
     }
 }

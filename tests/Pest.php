@@ -1,5 +1,5 @@
 <?php
 
-use SaaSykit\OpenGraphy\Tests\TestCase;
+use Edeoliv\OpenGraphy\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

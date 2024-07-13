@@ -1,7 +1,7 @@
 <p align="center"><img style="height: 100px"  src="/documentation/images/open-graphy.png" alt="Logo Laravel Open Graphy"></p>
 
 <p align="center">
-<a href="https://packagist.org/packages/saasykit/laravel-open-graphy"><img src="https://img.shields.io/packagist/v/saasykit/laravel-open-graphy.svg?style=flat-square" alt="Build Status"></a>
+<a href="https://packagist.org/packages/edeoliv/laravel-open-graphy"><img src="https://img.shields.io/packagist/v/edeoliv/laravel-open-graphy.svg?style=flat-square" alt="Build Status"></a>
 </p>
 
 **Open Graphy** is an awesome open graph image (social / twitter / X cards) generator package for your Laravel applications.
@@ -57,7 +57,7 @@ apt install chromium
 2. Once done, You can install the package via composer:
 
 ```bash
-composer require saasykit/laravel-open-graphy
+composer require edeoliv/laravel-open-graphy
 ```
 
 You can publish the config file with:
@@ -71,7 +71,7 @@ This is the contents of the published config file:
 ```php
 <?php
 
-// config for SaaSykit/OpenGraphy
+// config for edeoliv/OpenGraphy
 return [
     'chrome_binary' => null, // leave empty for autodiscovery, or set it to 'chrome' or 'chromium' depending on the binary you want to use. You can also provide full path to the binary
     'generate_with_command' => false, // set to true to generate the open graph image with a command instead from the controller (useful in some cases where chromium is not reachable from the web server)
@@ -207,8 +207,8 @@ You can also add a screenshot of the page to the open graph image. This is usefu
 **Example:**
 
 <p align="center">
-    <a href="https://saasykit.com?ref=opengraphy" target="_blank">
-    <img  width="80%" style="border-radius: 15px; max-height: 350px" src="documentation/images/screenshot-example-saasykit.png">
+    <a href="https://edeoliv.com?ref=opengraphy" target="_blank">
+    <img  width="80%" style="border-radius: 15px; max-height: 350px" src="documentation/images/screenshot-example-edeoliv.png">
     </a>
 </p>
 
@@ -240,7 +240,7 @@ You can use the following pattern library if you're looking for cool ones: https
 
 ## Wanna build a Laravel SaaS application quickly?
 
-If you want to build a SaaS app quickly, support us by checking out [SaaSykit](https://saasykit.com?ref=opengraphy). It's a SaaS starter kit (boilerplate) that comes packed with all components required to run a modern SaaS software.
+If you want to build a SaaS app quickly, support us by checking out [edeoliv](https://edeoliv.com?ref=opengraphy). It's a SaaS starter kit (boilerplate) that comes packed with all components required to run a modern SaaS software.
 
 ## Contributing
 

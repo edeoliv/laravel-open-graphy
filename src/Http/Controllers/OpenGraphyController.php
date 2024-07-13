@@ -1,9 +1,9 @@
 <?php
 
-namespace SaaSykit\OpenGraphy\Http\Controllers;
+namespace Edeoliv\OpenGraphy\Http\Controllers;
 
 use Illuminate\Http\Request;
-use SaaSykit\OpenGraphy\ImageGenerator;
+use Edeoliv\OpenGraphy\ImageGenerator;
 
 class OpenGraphyController
 {

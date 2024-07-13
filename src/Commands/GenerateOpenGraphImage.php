@@ -1,9 +1,9 @@
 <?php
 
-namespace SaaSykit\OpenGraphy\Commands;
+namespace Edeoliv\OpenGraphy\Commands;
 
 use Illuminate\Console\Command;
-use SaaSykit\OpenGraphy\ImageGenerator;
+use Edeoliv\OpenGraphy\ImageGenerator;
 
 class GenerateOpenGraphImage extends Command
 {

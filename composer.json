@@ -1,17 +1,17 @@
 {
-    "name": "saasykit/laravel-open-graphy",
+    "name": "edeoliv/laravel-open-graphy",
     "description": "An awesome open graph image (social cards) generator package for Laravel.",
     "keywords": [
-        "Ahmad Mas",
+        "Elias Olivtradet",
         "laravel",
         "laravel-open-graphy"
     ],
-    "homepage": "https://github.com/saasykit/laravel-open-graphy",
+    "homepage": "https://github.com/edeoliv/laravel-open-graphy",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ahmad Mas",
-            "email": "hi@saasykit.com",
+            "name": "Elias Olivtradet",
+            "email": "info@e2tmk.com",
             "role": "Developer"
         }
     ],
@@ -32,14 +32,14 @@
     },
     "autoload": {
         "psr-4": {
-            "SaaSykit\\OpenGraphy\\": "src/",
-            "SaaSykit\\OpenGraphy\\Database\\Factories\\": "database/factories/"
+            "Edeoliv\\OpenGraphy\\": "src/",
+            "Edeoliv\\OpenGraphy\\Database\\Factories\\": "database/factories/"
         },
         "files": ["src/helpers.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "SaaSykit\\OpenGraphy\\Tests\\": "tests/",
+            "Edeoliv\\OpenGraphy\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -71,10 +71,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SaaSykit\\OpenGraphy\\OpenGraphyServiceProvider"
+                "Edeoliv\\OpenGraphy\\OpenGraphyServiceProvider"
             ],
             "aliases": {
-                "OpenGraphy": "SaaSykit\\OpenGraphy\\Facades\\OpenGraphy"
+                "OpenGraphy": "Edeoliv\\OpenGraphy\\Facades\\OpenGraphy"
             }
         }
     },
